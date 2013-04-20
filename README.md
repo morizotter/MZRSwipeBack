@@ -6,16 +6,20 @@ Simple swipe back category
 Description
 -----------
 
-This is very simple swipe back category. 
+This is very simple swipe back category.  
+Only ARC. iOS6.0 and later.
 
-Use
+
+Usage
 ----
 
 1. Add MZRSwipeBack directory in your project.
-2. Import **UIViewController+SwipeBack.h** to where you want to use swipe back.
+2. Import `UIViewController+SwipeBack.h` to where you want to use swipe back.
 3. Add the code below.
 
-    [self addSwipeGesture];
+<pre>
+[self addSwipeGesture];
+</pre>
 
 4. Done.
 
