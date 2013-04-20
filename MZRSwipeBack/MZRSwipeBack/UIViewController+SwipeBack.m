@@ -15,6 +15,8 @@ BOOL const swipeBackEnabled = YES;
 
 - (void)addSwipeBackGesture
 {
+    if (!swipeBackEnabled) return;
+    
     UISwipeGestureRecognizer *swipeGestureRecognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeBack:)];
     swipeGestureRecognizer.direction = UISwipeGestureRecognizerDirectionRight;
     [self.view addGestureRecognizer:swipeGestureRecognizer];
@@ -22,8 +24,6 @@ BOOL const swipeBackEnabled = YES;
 
 - (void)swipeBack:(UISwipeGestureRecognizer *)sender
 {
-    if (!swipeBackEnabled) return;
-    
     NSUInteger index = [self.navigationController.viewControllers indexOfObject:self];
     if (index==0) return;
     
