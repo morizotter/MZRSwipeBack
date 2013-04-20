@@ -8,11 +8,6 @@ Description
 
 This is very simple swipe back category. 
 
-Author
--------
-* [@morizotter](http://twitter.com/morizotter/)
-* [mztr.net](http://mztr.net)
-
 Use
 ----
 
@@ -33,3 +28,8 @@ Lisence
 -------
 
 Nothing. Please use it as you want. You don't need to show my name.
+
+Author
+-------
+* [@morizotter](http://twitter.com/morizotter/)
+* [mztr.net](http://mztr.net)
